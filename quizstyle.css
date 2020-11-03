@@ -1,0 +1,72 @@
+
+body{
+    background-color: snow;
+}
+
+
+
+
+
+#container{
+    display: inline;
+    margin: 0px;
+    padding: 25px;
+    display: block;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Turret Road', cursive;
+    font-size: 20px;
+
+}
+
+.highscore {
+    float: left;
+}
+
+.time {
+    float: right;
+    font-size: 20px;
+}
+
+#quizcontent{
+    text-align: center;
+}
+
+
+
+#quizprompt{
+    text-align: center;
+    margin: 20px;
+}
+h1{
+    font-family: 'Turret Road', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    
+
+ }
+button{
+    background-color: mediumpurple;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    transition-duration: 0.4s;
+    background-color: violet;
+
+}
+
+
+h4{
+    font-family: 'Turret Road', cursive;
+
+}
+p{
+    font-family: 'Orbitron', sans-serif;
+font-family: 'Turret Road', cursive;
+}

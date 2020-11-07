@@ -1,6 +1,7 @@
 
 body{
     background-color: snow;
+    font-family: 'Turret Road', cursive;
 }
 
 
@@ -11,7 +12,7 @@ body{
     display: inline;
     margin: 0px;
     padding: 25px;
-    display: block;
+  
 }
 
 
@@ -21,12 +22,11 @@ a{
     color: black;
     font-family: 'Turret Road', cursive;
     font-size: 20px;
-
-}
-
-.highscore {
     float: left;
+
 }
+
+
 
 .time {
     float: right;
@@ -41,7 +41,7 @@ a{
 
 #quizprompt{
     text-align: center;
-    margin: 20px;
+    margin: 80px;
 }
 h1{
     font-family: 'Turret Road', cursive;
@@ -54,6 +54,8 @@ button{
     background-color: mediumpurple;
     color: white;
     font-size: 20px;
+    margin: 4px;
+
 }
 button:hover{
     transition-duration: 0.4s;
@@ -62,7 +64,7 @@ button:hover{
 }
 
 
-h4{
+h4 {
     font-family: 'Turret Road', cursive;
 
 }

@@ -12,16 +12,13 @@
 </head>
 <body>
 <div id="container">
-    <div class="highscore">
-<a onclick="" href="#"><h4>Veiw highscore</h4></a>
-</div>
+    <div class="scorelist">
+        <a onclick="getScore()" href="#"><h4>Veiw highscore</h4></a>
+    </div>
     <div class="time">
-        <h4>
-            Time: <span id="timeremaining">0</span>
-
-        </h4>
+        <h4>Time: <span id="timeremaining">0</span></h4>
+    </div>
     
-</div>
 </div>
          <br>
 <div id="quizcontent">
@@ -32,7 +29,7 @@
     <p> Try to answer the following code-realated questions within the time limit.<p>
         <p> in mind that incorrect answers will penalize your scoretimeby ten seconds!</p>
 
-<button onclick="">Start Quiz! </button>
+        <button onclick="start()">Start Quiz!</button>
 </div>
 </div>
 </div>

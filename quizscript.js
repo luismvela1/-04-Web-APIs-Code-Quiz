@@ -115,7 +115,7 @@ document.getElementById("quizprompt").innerHTML = quizContent;
 }
 
 function incorrect() {   
-timeLeft -= 15; 
+timeLeft -= 15;
 next();
 }
 
